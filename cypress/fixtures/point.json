@@ -1,0 +1,12 @@
+{
+  "id": "point-1",
+  "base_price": 1000,
+  "date_from": "2023-07-15T13:30:00.000Z",
+  "date_to": "2023-07-15T14:00:00.000Z",
+  "destination": "empty-destination",
+  "is_favorite": false,
+  "offers": [
+    "drive-1"
+  ],
+  "type": "drive"
+}
