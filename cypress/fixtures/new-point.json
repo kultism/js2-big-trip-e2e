@@ -1,0 +1,12 @@
+{
+  "id": "new-point",
+  "base_price": 6000,
+  "date_from": "2023-07-15T14:30:00.000Z",
+  "date_to": "2023-07-16T15:00:00.000Z",
+  "destination": "full-destination",
+  "is_favorite": false,
+  "offers": [
+    "train-1"
+  ],
+  "type": "train"
+}

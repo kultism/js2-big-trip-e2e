@@ -1,0 +1,13 @@
+{
+  "id": "point-1",
+  "base_price": 9000,
+  "date_from": "2040-07-15T13:30:00.000Z",
+  "date_to": "2040-07-15T14:00:00.000Z",
+  "destination": "full-destination",
+  "is_favorite": false,
+  "offers": [
+    "taxi-2",
+    "taxi-4"
+  ],
+  "type": "taxi"
+}
