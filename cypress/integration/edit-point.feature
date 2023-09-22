@@ -27,8 +27,8 @@ Feature: 1.5 Редактирование точки маршрута
     Then на странице '1' элементов '[value="sightseeing"i]'
     Then на странице '1' элементов '[value="restaurant"i]'
     Then значение поля '.event__input--destination' равно 'Full destination'
-    Then значение поля '[id*="event-start-time"i]' равно '17/11/20 16:25'
-    Then значение поля '[id*="event-end-time"i]' равно '19/11/20 16:55'
+    Then форма содержит корректное время начала '2020-11-17T13:25:00.000Z'
+    Then форма содержит корректное время конца '2020-11-19T13:55:00.000Z'
     Then значение поля '.event__input--price' равно '4000'
     Then элемент '.event__section--offers' видим
     Then на странице '1' элементов '.event__offer-checkbox'

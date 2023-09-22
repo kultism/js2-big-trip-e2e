@@ -28,6 +28,22 @@ Then(/^точка '(.*)' содержит корректное время '(.*)'
   });
 });
 
+Then(/^форма содержит корректное время начала '(.*)'$/, (startDate) => {
+  cy.get('[id*="event-start-time"i]')
+    .then(($inputElements) => {
+      const startTimeElement = $inputElements[0];
+      expect(startTimeElement.value.trim()).equal(dayjs(startDate).format('DD/MM/YY HH:mm'));
+  });
+});
+
+Then(/^форма содержит корректное время конца '(.*)'$/, (endDate) => {
+  cy.get('[id*="event-end-time"i]')
+    .then(($inputElements) => {
+      const endTimeElement = $inputElements[0];
+      expect(endTimeElement.value.trim()).equal(dayjs(endDate).format('DD/MM/YY HH:mm'));
+  });
+});
+
 Then(/^точка '(.*)' содержит элемент '(.*)'$/, (count, selector) => {
   cy.get('.trip-events__item')
     .eq(count - 1)
