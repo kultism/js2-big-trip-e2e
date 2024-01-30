@@ -8,7 +8,7 @@ module.exports = defineConfig({
     excludeSpecPattern: '*.js',
     specPattern: 'cypress/integration/**/*.{feature,features}',
     baseUrl: 'http://localhost:8080',
-    baseApiUrl: 'https://22.objects.pages.academy/big-trip',
+    baseApiUrl: 'https://22.objects.htmlacademy.pro/big-trip',
     viewportHeight: 1000,
     viewportWidth: 1280,
     experimentalWebKitSupport: true,
